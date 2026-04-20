@@ -1,46 +1,36 @@
-const sectionLinks = [
-  { label: "Hero", href: "#hero" },
-  { label: "Projects", href: "#projects" },
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Extracurriculars", href: "#extracurriculars" },
-  { label: "Contact", href: "#contact" },
-] as const;
-
 export function OpeningScreen() {
   return (
-    <section className="border-b border-slate-200">
-      <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col justify-between px-6 py-10 sm:px-8 lg:px-12">
-        <div className="flex items-center justify-between gap-4 text-sm text-slate-500">
-          <span>Portfolio</span>
-          <span>Base structure</span>
-        </div>
+    <section className="relative overflow-hidden border-b border-slate-200 bg-white">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.12),_transparent_45%)]" />
 
-        <div className="max-w-3xl space-y-6 py-16">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
-            Opening screen
-          </p>
-          <h1 className="text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl">
-            A simple one-page portfolio scaffold.
+      <div className="relative mx-auto grid min-h-screen w-full max-w-6xl grid-rows-[minmax(4rem,1fr)_auto_minmax(8rem,1.2fr)] px-6 py-8 sm:grid-rows-[minmax(5rem,1fr)_auto_minmax(8rem,1.35fr)] sm:px-8 sm:py-10 lg:px-12">
+        <div className="row-start-2 mx-auto max-w-4xl text-center">
+          <h1 className="text-balance text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
+            I turn ideas into systems. Sometimes they even work on the first
+            try.
           </h1>
-          <p className="max-w-2xl text-lg leading-8 text-slate-600">
-            The structure is in place for content-first iteration: vertical
-            sections, reusable wrappers, and room to grow without forcing a
-            design system too early.
-          </p>
         </div>
 
-        <nav aria-label="Section navigation" className="flex flex-wrap gap-3 pb-2">
-          {sectionLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="rounded-full border border-slate-200 px-4 py-2 text-sm text-slate-700 transition hover:border-slate-300 hover:text-slate-900"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        <div className="row-start-3 mt-10 grid items-end gap-6 sm:mt-12 sm:grid-cols-3">
+          <div className="hidden sm:block" />
+
+          <a
+            href="#hero"
+            className="flex flex-col items-center gap-2 self-end justify-self-center text-sm text-slate-500 transition hover:text-slate-800"
+          >
+            <span>Scroll down</span>
+            <span aria-hidden="true" className="text-lg leading-none">
+              ↓
+            </span>
+          </a>
+
+          <aside className="max-w-[15rem] justify-self-end rounded-2xl border border-slate-200/80 bg-white/85 px-4 py-3 text-right text-xs leading-5 text-slate-500 shadow-sm backdrop-blur sm:max-w-xs sm:text-sm">
+            <p>
+              She is, fortunately, far more reliable than most engineers I have
+              encountered.
+            </p>
+          </aside>
+        </div>
       </div>
     </section>
   );
