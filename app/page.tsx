@@ -45,7 +45,7 @@ const portfolioSections = [
 
 export default function Home() {
   return (
-    <main className="bg-white text-slate-900">
+    <main className="bg-bg text-text">
       <OpeningScreen />
       <HeroSection />
 
