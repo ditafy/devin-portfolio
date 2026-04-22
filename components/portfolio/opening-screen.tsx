@@ -1,8 +1,6 @@
 export function OpeningScreen() {
   return (
-    <section className="relative overflow-hidden border-b border-border bg-bg">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.10),_transparent_45%)]" />
-
+    <section className="relative overflow-hidden border-b border-border">
       <div className="relative mx-auto grid min-h-screen w-full max-w-6xl grid-rows-[minmax(4rem,1fr)_auto_minmax(8rem,1.2fr)] px-6 py-8 sm:grid-rows-[minmax(5rem,1fr)_auto_minmax(8rem,1.35fr)] sm:px-8 sm:py-10 lg:px-12">
         <div className="row-start-2 mx-auto max-w-4xl text-center">
           <h1 className="text-balance text-5xl font-semibold tracking-tight text-text sm:text-6xl lg:text-7xl">
@@ -24,7 +22,7 @@ export function OpeningScreen() {
             </span>
           </a>
 
-          <aside className="max-w-[15rem] justify-self-end rounded-2xl border border-border bg-card/90 px-4 py-3 text-right text-xs leading-5 text-muted backdrop-blur sm:max-w-xs sm:text-sm">
+          <aside className="max-w-[15rem] justify-self-end rounded-2xl border border-border bg-card px-4 py-3 text-right text-xs leading-5 text-muted backdrop-blur-sm sm:max-w-xs sm:text-sm">
             <p>
               She is, fortunately, far more reliable than most engineers I have
               encountered.
