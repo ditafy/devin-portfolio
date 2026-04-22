@@ -1,11 +1,14 @@
 export function OpeningScreen() {
   return (
-    <section className="relative overflow-hidden border-b border-border">
+    <section className="relative overflow-hidden border-b border-border bg-bg">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(148,163,184,0.20)_0%,rgba(148,163,184,0.10)_18%,transparent_44%)]" />
+
       <div className="relative mx-auto grid min-h-screen w-full max-w-6xl grid-rows-[minmax(4rem,1fr)_auto_minmax(8rem,1.2fr)] px-6 py-8 sm:grid-rows-[minmax(5rem,1fr)_auto_minmax(8rem,1.35fr)] sm:px-8 sm:py-10 lg:px-12">
         <div className="row-start-2 mx-auto max-w-4xl text-center">
-          <h1 className="text-balance text-5xl font-semibold tracking-tight text-text sm:text-6xl lg:text-7xl">
-            I turn ideas into systems. Sometimes they even work on the first
-            try.
+          <h1 className="text-balance text-5xl font-medium leading-[1.12] tracking-[-0.03em] text-text sm:text-6xl lg:text-7xl">
+            <span>I turn ideas into systems.</span>
+            <br />
+            <span>Sometimes they even work on the first try.</span>
           </h1>
         </div>
 

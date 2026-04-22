@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #09111f;
+  --bg: #060c18;
   --text: #e5e7eb;
   --muted: #9ca3af;
-  --card: rgba(20, 29, 43, 0.72);
+  --card: #141d2b;
   --border: #2b3545;
   --surface: #0f172a;
   --accent: #cbd5e1;
@@ -30,19 +30,6 @@ html {
 body {
   min-height: 100vh;
   background-color: var(--bg);
-  background-image:
-    radial-gradient(
-      circle at 50% 0%,
-      rgba(148, 163, 184, 0.12) 0%,
-      rgba(148, 163, 184, 0.06) 18%,
-      transparent 44%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(16, 24, 39, 0.92) 0%,
-      rgba(9, 17, 31, 1) 46%,
-      rgba(6, 12, 24, 1) 100%
-    );
   color: var(--text);
   font-family: var(--font-sans);
   line-height: 1.5;

@@ -16,7 +16,7 @@ export function HeroSection() {
           </p>
         </div>
 
-        <div className="rounded-3xl border border-border bg-card p-6 backdrop-blur-sm">
+        <div className="rounded-3xl border border-border bg-card p-6">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">
             Quick info
           </p>
