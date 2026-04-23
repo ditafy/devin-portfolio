@@ -40,3 +40,23 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@keyframes arrowDrift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+.opening-arrow {
+  animation: arrowDrift 2.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opening-arrow {
+    animation: none;
+  }
+}

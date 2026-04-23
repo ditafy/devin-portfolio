@@ -16,7 +16,7 @@ export function SectionShell({
   return (
     <section
       id={id}
-      className="border-t border-border py-16 scroll-mt-24 sm:py-20"
+      className="py-16 scroll-mt-24 sm:py-20"
     >
       <div className="grid gap-8 md:grid-cols-[220px_minmax(0,1fr)] md:gap-12">
         <div className="space-y-3">
