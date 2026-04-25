@@ -2,17 +2,11 @@ import {
   ContentSection,
   HeroSection,
   OpeningScreen,
+  ProjectsSection,
   SectionShell,
 } from "@/components/portfolio";
 
 const portfolioSections = [
-  {
-    id: "projects",
-    eyebrow: "Selected work",
-    title: "Projects",
-    description:
-      "Use this section to highlight a few strongest projects with clear outcomes, responsibilities, and links.",
-  },
   {
     id: "about",
     eyebrow: "Background",
@@ -50,6 +44,7 @@ export default function Home() {
       <HeroSection />
 
       <div className="mx-auto flex w-full max-w-6xl flex-col px-6 pb-16 sm:px-8 lg:px-12">
+        <ProjectsSection />
         {portfolioSections.map((section) => (
           <SectionShell
             key={section.id}

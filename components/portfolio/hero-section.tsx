@@ -24,7 +24,7 @@ export function HeroSection() {
           <dl className="mt-6 space-y-4 text-sm text-muted">
             <div className="flex items-center justify-between gap-4 border-b border-border pb-4">
               <dt>Based in</dt>
-              <dd className="text-left text-text">Sydney, Australia</dd>
+              <dd className="text-right text-text">Sydney, Australia</dd>
             </div>
             <div className="flex items-center justify-between gap-4 border-b border-border pb-4">
               <dt>Study</dt>

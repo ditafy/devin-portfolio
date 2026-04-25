@@ -7,7 +7,11 @@
   --card: #141d2b;
   --border: #2b3545;
   --surface: #0f172a;
-  --accent: #cbd5e1;
+  --accent: #6b8db5;
+  --accent-border: rgba(107, 141, 181, 0.35);
+  --accent-surface: rgba(107, 141, 181, 0.12);
+  --accent-surface-strong: rgba(107, 141, 181, 0.2);
+  --accent-glow: rgba(107, 141, 181, 0.26);
 }
 
 @theme inline {
