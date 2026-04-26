@@ -154,9 +154,6 @@ export function ProjectsSection() {
     <section id="projects" className="py-16 scroll-mt-24 sm:py-20">
       <div className="space-y-8 sm:space-y-10">
         <div className="max-w-3xl space-y-4">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent">
-            Selected work
-          </p>
           <h2 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">
             Projects
           </h2>

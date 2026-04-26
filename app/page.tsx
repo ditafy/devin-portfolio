@@ -4,22 +4,23 @@ import {
   OpeningScreen,
   ProjectsSection,
   SectionShell,
+  SkillsSection,
 } from "@/components/portfolio";
 
 const portfolioSections = [
   {
-    id: "about",
-    eyebrow: "Background",
-    title: "About",
+    id: "education",
+    eyebrow: "Academic background",
+    title: "Education",
     description:
-      "Add a short personal summary that explains who you are, what you focus on, and what kind of work you enjoy.",
+      "Outline your degree, institution, relevant coursework, and any academic highlights worth surfacing.",
   },
   {
-    id: "skills",
-    eyebrow: "Capabilities",
-    title: "Skills",
+    id: "about",
+    eyebrow: "Background",
+    title: "About Me",
     description:
-      "List your core tools, technical strengths, and areas where you can contribute immediately.",
+      "Add a short personal summary that explains who you are, what you focus on, and what kind of work you enjoy.",
   },
   {
     id: "extracurriculars",
@@ -45,6 +46,7 @@ export default function Home() {
 
       <div className="mx-auto flex w-full max-w-6xl flex-col px-6 pb-16 sm:px-8 lg:px-12">
         <ProjectsSection />
+        <SkillsSection />
         {portfolioSections.map((section) => (
           <SectionShell
             key={section.id}
