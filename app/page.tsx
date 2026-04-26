@@ -1,5 +1,6 @@
 import {
   ContentSection,
+  EducationSection,
   HeroSection,
   OpeningScreen,
   ProjectsSection,
@@ -8,13 +9,6 @@ import {
 } from "@/components/portfolio";
 
 const portfolioSections = [
-  {
-    id: "education",
-    eyebrow: "Academic background",
-    title: "Education",
-    description:
-      "Outline your degree, institution, relevant coursework, and any academic highlights worth surfacing.",
-  },
   {
     id: "about",
     eyebrow: "Background",
@@ -47,6 +41,7 @@ export default function Home() {
       <div className="mx-auto flex w-full max-w-6xl flex-col px-6 pb-16 sm:px-8 lg:px-12">
         <ProjectsSection />
         <SkillsSection />
+        <EducationSection />
         {portfolioSections.map((section) => (
           <SectionShell
             key={section.id}
