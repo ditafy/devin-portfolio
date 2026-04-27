@@ -157,11 +157,6 @@ export function ProjectsSection() {
           <h2 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">
             Projects
           </h2>
-          <p className="text-base leading-8 text-muted sm:text-lg">
-            I build systems around AI, software engineering, 
-            and practical problem solving, with a focus on reliability, 
-            usability, and real world impact.
-          </p>
         </div>
 
         <div className="grid gap-6 xl:grid-cols-2">
@@ -189,7 +184,7 @@ export function ProjectsSection() {
               </div>
               <div className="max-w-3xl space-y-2">
                 <h3 className="text-2xl font-semibold tracking-tight text-text">
-                  More projects and experiments
+                  More projects
                 </h3>
                 <p className="text-base leading-7 text-muted">
                   Experiments, research work, and the messy process behind the polished systems.

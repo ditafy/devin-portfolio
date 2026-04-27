@@ -13,7 +13,7 @@ const educationEntries = [
   {
     dates: "09/2020 - 07/2024",
     degree: "Bachelor of Science",
-    institution: "NJUST, Nanjing, China",
+    institution: "NJUST, China",
     details: [
       ["Major", "Mathematics"],
       ["GPA", "85+ (High Distinction)"],

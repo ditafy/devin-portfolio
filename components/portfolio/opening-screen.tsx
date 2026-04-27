@@ -24,13 +24,6 @@ export function OpeningScreen() {
               ↓
             </span>
           </a>
-
-          <aside className="max-w-[15rem] justify-self-end rounded-2xl border border-border bg-card px-4 py-3 text-right text-xs leading-5 text-muted backdrop-blur-sm sm:max-w-xs sm:text-sm">
-            <p>
-              She is, fortunately, far more reliable than most engineers I have
-              encountered.
-            </p>
-          </aside>
         </div>
       </div>
     </section>
