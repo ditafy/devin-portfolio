@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 const hobbyItems = [
-  "Convincing myself leg day is optional, then regretting it immediately",
-  "Trying to make AI systems slightly less overconfident than humans",
+  "Convincing myself leg day is optional",
   "Rearranging my gym schedule like it’s a production deployment",
   "Believing “just one quick fix” will only take five minutes",
 ] as const;
@@ -43,7 +42,7 @@ export function AboutSection() {
         </div>
 
         <div className="grid gap-10 xl:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] xl:gap-16">
-          <div className="space-y-5 xl:mt-10">
+          <div className="space-y-5 xl:mt-4">
             <div className="overflow-hidden rounded-[2rem] border border-border bg-card">
               <div className="relative aspect-[4/5]">
                 <Image src="/DSC_2837.JPG" alt="Profile photo" fill className="object-cover"/> 
@@ -58,7 +57,7 @@ export function AboutSection() {
             </div>
           </div>
 
-          <div className="space-y-6 xl:-mt-8">
+          <div className="space-y-6">
             <AboutBlock title="Who I am">
               <div className="space-y-4 text-base leading-8 text-muted sm:text-lg">
                 <p>

@@ -2,6 +2,7 @@ import {
   AboutSection,
   ContentSection,
   EducationSection,
+  ExtracurricularsSection,
   HeroSection,
   OpeningScreen,
   ProjectsSection,
@@ -10,13 +11,6 @@ import {
 } from "@/components/portfolio";
 
 const portfolioSections = [
-  {
-    id: "extracurriculars",
-    eyebrow: "Beyond coursework",
-    title: "Extracurriculars",
-    description:
-      "Reserve this space for leadership, clubs, volunteering, competitions, or independent initiatives.",
-  },
   {
     id: "contact",
     eyebrow: "Get in touch",
@@ -37,6 +31,7 @@ export default function Home() {
         <SkillsSection />
         <EducationSection />
         <AboutSection />
+        <ExtracurricularsSection />
         {portfolioSections.map((section) => (
           <SectionShell
             key={section.id}
