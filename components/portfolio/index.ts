@@ -1,5 +1,6 @@
 export { AboutSection } from "./about-section";
 export { ContentSection } from "./content-section";
+export { ContactSection } from "./contact-section";
 export { EducationSection } from "./education-section";
 export { ExtracurricularsSection } from "./extracurriculars-section";
 export { HeroSection } from "./hero-section";

@@ -1,24 +1,13 @@
 import {
   AboutSection,
-  ContentSection,
+  ContactSection,
   EducationSection,
   ExtracurricularsSection,
   HeroSection,
   OpeningScreen,
   ProjectsSection,
-  SectionShell,
   SkillsSection,
 } from "@/components/portfolio";
-
-const portfolioSections = [
-  {
-    id: "contact",
-    eyebrow: "Get in touch",
-    title: "Contact",
-    description:
-      "Add your preferred contact details, location, and any links you want recruiters or collaborators to use.",
-  },
-] as const;
 
 export default function Home() {
   return (
@@ -32,16 +21,7 @@ export default function Home() {
         <EducationSection />
         <AboutSection />
         <ExtracurricularsSection />
-        {portfolioSections.map((section) => (
-          <SectionShell
-            key={section.id}
-            id={section.id}
-            eyebrow={section.eyebrow}
-            title={section.title}
-          >
-            <ContentSection description={section.description} />
-          </SectionShell>
-        ))}
+        <ContactSection />
       </div>
     </main>
   );

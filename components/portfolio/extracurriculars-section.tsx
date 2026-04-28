@@ -13,7 +13,7 @@ const timelineEntries = [
   },
   {
     year: "2024 - 2026",
-    title: "Part-time Sales",
+    title: "Retail Associate",
     organization: "NewsXpress Royal Randwick",
     tags: ["Communication", "Time management", "Crisis Handling", "Perseverance"],
   },
